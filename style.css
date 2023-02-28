@@ -1,0 +1,197 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+    .frame{
+        width: 28.6806%;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        background: #13243C;
+        border-radius: 20px;
+        margin: 127px 35.6597% 127px;
+    }
+    .frame .picture{
+        position: relative;
+        border-radius: 20px;
+        background: linear-gradient(180deg , rgba(19, 36, 59, 0) 0%, rgba(19, 36, 59, 0.74) 61.98%, #13243B 100%)
+    }
+    
+    .frame .description{
+        display: flex;
+        position: relative;
+        flex-direction: column;
+        padding: 0px;
+        gap: 24px;
+        max-width: 278px;
+        height: fit-content;
+        margin: -26.0791% 32px 40px;
+        overflow: hidden;
+    }
+    .frame .description .name{
+        width: fit-content;
+        height: fit-content;
+        font-family: 'Manrope';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 33px;
+        color: #FFFFFF;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        line-height: 1.2;
+        max-height: 100px;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+    }
+    .frame .description .content{
+        
+        height: fit-content;
+        font-family: 'Manrope';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 160%;
+        letter-spacing: -0.01em;
+        color: #9293B9;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        line-height: 1.2;
+        max-height: 100px;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+    }
+    .frame .price{
+        display: flex;
+        position: relative;
+        flex-direction: row;
+        align-items: center;
+        padding: 0px;
+        gap: 10px;
+        width: 115px;
+        height: 29px;
+        margin: 0px 0px 32px 32px;
+    }
+    .frame .price .cost{
+        width: 85px;
+        height: 29px;
+        font-family: 'Manrope';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 160%;
+        letter-spacing: -0.01em;
+        color: #04FCFA;
+    }
+    .frame .date{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        position: absolute;
+        padding: 0px;
+        gap: 10px;
+        width: fit-content;
+        height: 26px;
+        right: 32px;
+        bottom: 121px;
+    }
+    .frame .date .time{
+        width: 75px;
+        height: 26px;
+        font-family: 'Manrope';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 160%;
+        letter-spacing: -0.01em;
+        color: #9293B9;
+    }
+    .frame .line{
+        width: 84.5036%;
+        height: 0px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        align-self: center;
+        margin-bottom: 20px;
+        border: 1.5px solid #2B3953;
+    }
+    .frame .creator{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0px;
+        gap: 16px;
+        width: auto;
+        margin: 0px 32px 24px;
+    }
+    .frame .creator .creation-text{
+        font-family: 'Manrope';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 160%;
+        letter-spacing: -0.01em;
+        color: #9293B9;
+    }
+
+
+
+    @media screen and (max-width: 1200px) {
+        .frame{
+            width: 41.1271%;
+            margin: 354px 29.4365%;
+            overflow: hidden;
+        }
+        .frame .picture{
+            width: 410;
+
+        }
+        .frame .description{
+            gap: 16px;
+            width: 251px;
+            margin: -127px 24px 24px;
+        }
+        .frame .price{
+            margin: 0px 0px 20px 24px;
+        }
+        .frame .date{
+            bottom: 105px;
+        }
+        .frame .time{
+            font-size: 14px;
+        }
+        .frame .line{
+            width: 86.0058%;
+            margin-bottom: 16px;
+        }
+        .frame .creator{
+            margin: 0px 24px 24px;
+        }
+        .frame .creator .creation-text{
+            font-size: 14px;
+        }
+
+      }
+    @media screen and (max-width: 750px) {
+        .frame{
+            width: 91.4667%;
+            margin: 163px 4.2667%;
+            overflow: hidden;
+        }
+        .frame .price .cost{
+            font-size: 16px;
+        }
+        .frame .date .time{
+            font-size: 14px;
+        }
+        .frame .creator .creation-text{
+            font-size: 14px;
+        }
+      }
